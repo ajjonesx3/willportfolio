@@ -1,0 +1,59 @@
+
+.FooterContent {
+    color: rgb(238, 99, 99);
+    font-family:"Open Sans",serif;
+    display:grid;
+    grid-template-rows:4fr 1fr;
+    grid-template-columns:1fr;
+    justify-content:center;
+    width:100%;
+}
+
+.TopContent {
+    width:25%;
+    font-size: 1.8em;
+    min-width:400px;
+    justify-self:center;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.SocialsLinks {
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+}
+
+.SocialsLinks li {
+    padding: .5em;
+}
+
+.SocialsLinks li:hover {
+    cursor:pointer;
+    color:white;
+}
+
+.TopContent a {
+    text-decoration:none;
+    color:inherit !important;
+}
+
+.Resume {
+    letter-spacing:2px;
+}
+
+.Resume:hover {
+    cursor:pointer;
+    color:white;
+}
+
+.Copyright {
+    font-size:.7em;
+}
+
+.Copyright i {
+    margin:0 3px;
+}

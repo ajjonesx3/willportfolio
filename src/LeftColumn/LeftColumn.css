@@ -1,0 +1,26 @@
+.leftColumn h3 {
+    font-family:"Open Sans",serif;
+    color:white;
+    font-size:1.6em;
+    letter-spacing:1px;
+}
+
+.leftColumn .textHolder {
+    width:70%;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    position:relative;
+    left:5%;
+}
+
+.leftColumn {
+    height:100%;
+    margin:0;
+    padding:0;
+    padding-right:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    line-height:4em;
+    border-right:3px solid rgba(231, 178, 178, 0.267);
+}

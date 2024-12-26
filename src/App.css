@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  overflow:hidden;
+  display:grid;
+  grid-template-rows: 15vh 75vh 10vh;
+}
+
+li, ul, header, body, div {
+  margin:0;
+  padding:0;
+}
