@@ -16,11 +16,11 @@ function App() {
         <Header />
         <Main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/animation" element={<Animation />} />
-            <Route path="/storyboarding" element={<Storyboarding />} />
-            <Route path="/design" element={<Design/>} />
+            <Route path="willportfolio/" element={<Home />} />
+            <Route path="willportfolio/blog" element={<Blog />} />
+            <Route path="willportfolio/animation" element={<Animation />} />
+            <Route path="willportfolio/storyboarding" element={<Storyboarding />} />
+            <Route path="willportfolio/design" element={<Design/>} />
           </Routes>
         </Main>
         <Footer />
