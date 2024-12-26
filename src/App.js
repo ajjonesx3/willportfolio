@@ -11,16 +11,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/willportfolio">
       <div className="App">
         <Header />
         <Main>
           <Routes>
-            <Route path="willportfolio/" element={<Home />} />
-            <Route path="willportfolio/blog" element={<Blog />} />
-            <Route path="willportfolio/animation" element={<Animation />} />
-            <Route path="willportfolio/storyboarding" element={<Storyboarding />} />
-            <Route path="willportfolio/design" element={<Design/>} />
+            <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/animation" element={<Animation />} />
+            <Route path="/storyboarding" element={<Storyboarding />} />
+            <Route path="/design" element={<Design/>} />
           </Routes>
         </Main>
         <Footer />
