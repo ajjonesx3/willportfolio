@@ -8,7 +8,6 @@ import Animation from './Animation/Animation';
 import Design from './Design/Design';
 import Storyboarding from './Storyboarding/Storyboarding';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-//yo
 
 function App() {
   return (
