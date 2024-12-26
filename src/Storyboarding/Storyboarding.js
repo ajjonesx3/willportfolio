@@ -6,7 +6,7 @@ import img3 from './img3.jpg';
 
 const Storyboarding = () => {
 
-    const columnText = "A Page dedicated to my animatics and storyboards, showcasing my storytelling abilities as well as how I buiLd up my film through composition and setting before the animation is in.";
+    const columnText = "A Page dedicated to my animatics and storyboards, showcasing my storytelling abilities as well as how I build up my film through composition and setting before the animation is in.";
 
     return (
         <div className="storyboarding">
