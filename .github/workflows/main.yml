@@ -1,18 +1,17 @@
-name: Deploy
+
+name: build-test-deploy
 on:
   push:
     branches: [main]
-
-build:
-  runs-on: ubuntu-latest
-  strategy:
-      matrix:
-        node: [ 14, 16, 18 ]
-  name: Node ${{ matrix.node }} sample
-    steps:
-      - uses: actions/checkout@v3
-      - name: Run linting rules and tests
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: checkout repo
+        uses: actions/checkout@v3
+      - name: use node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node }}
-      - run: npm run deploy
+          node-version: '18.x'
+      - run: npm install
+      - run: npm run build
