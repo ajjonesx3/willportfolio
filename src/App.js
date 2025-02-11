@@ -7,11 +7,11 @@ import Blog from './Blog/Blog';
 import Animation from './Animation/Animation';
 import Design from './Design/Design';
 import Storyboarding from './Storyboarding/Storyboarding';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/willportfolio">
+    <Router>
       <div className="App">
         <Header />
         <Main>
