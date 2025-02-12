@@ -1,7 +1,12 @@
 import './Header.css';
 import {Link} from 'react-router-dom';
 
+const watermelonStyle = {
+    color: "rgb(78,170,97)"
+}
+
 const Header = () => {
+
     return (
         <div className="header">
             <div className="content-wrapper">

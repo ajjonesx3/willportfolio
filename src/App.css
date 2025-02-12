@@ -9,3 +9,6 @@ li, ul, header, body, div {
   margin:0;
   padding:0;
 }
+:root {
+  --watermelon: rgb(78,170,97);
+}

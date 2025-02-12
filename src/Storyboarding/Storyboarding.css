@@ -39,7 +39,9 @@
     border:1px solid black;
 }
 
-
+.otherImages img:hover {
+    cursor:pointer;
+}
 
 .otherImages img:not(:last-child){
     margin-right:2em;

@@ -1,6 +1,6 @@
 
 .FooterContent {
-    color: rgb(238, 99, 99);
+    color: white;
     font-family:"Open Sans",serif;
     display:grid;
     grid-template-rows:4fr 1fr;
@@ -29,11 +29,12 @@
 
 .SocialsLinks li {
     padding: .5em;
+    transition:color 400ms ease;
 }
 
 .SocialsLinks li:hover {
     cursor:pointer;
-    color:white;
+    color: var(--watermelon);
 }
 
 .TopContent a {
@@ -43,11 +44,12 @@
 
 .Resume {
     letter-spacing:2px;
+    transition:color 400ms ease;
 }
 
 .Resume:hover {
     cursor:pointer;
-    color:white;
+    color: var(--watermelon);
 }
 
 .Copyright {

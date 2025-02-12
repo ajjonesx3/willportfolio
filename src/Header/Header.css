@@ -41,7 +41,7 @@
 }
 
 .navlist {
-    color:rgb(238, 99, 99);
+    color: white;
     font-family:"Open Sans",serif;
     line-height:30px;
     list-style:none;
@@ -64,7 +64,7 @@
 }
 .navlist li:hover {
     cursor:pointer;
-    color: white !important;
+    color: var(--watermelon) !important;
 }
 
 .navlist li:not(:last-child) {
@@ -85,7 +85,7 @@
     position:absolute;
     top:100%;
     left:0;
-    color:rgb(238, 99, 99);
+    color: white;
     padding:8px;
     list-style:none;
     background: rgb(41, 41, 41);
