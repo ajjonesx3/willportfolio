@@ -10,6 +10,7 @@ import Storyboarding from './Storyboarding/Storyboarding';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
+    let fuck="bitch";
   return (
     <Router>
       <div className="App">
