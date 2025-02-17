@@ -16,7 +16,7 @@
     display:flex;
 }
 
-.selectedImage img {
+.selectedImage video {
     width:60%;
     margin:auto;
     border:1px solid black;
@@ -33,14 +33,17 @@
     scrollbar-width: none;  /* Firefox */
 }
 
-.otherImages img {
+.otherImages video {
     height:100px;
     margin:0;
     border:1px solid black;
 }
 
+.otherImages video:hover {
+    cursor:pointer;
+}
 
 
-.otherImages img:not(:last-child){
+.otherImages video:not(:last-child){
     margin-right:2em;
 }
