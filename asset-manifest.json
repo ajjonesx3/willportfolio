@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/willportfolio/static/css/main.0efa582b.css",
-    "main.js": "/willportfolio/static/js/main.520b2a4f.js",
+    "main.css": "/willportfolio/static/css/main.d71a54e0.css",
+    "main.js": "/willportfolio/static/js/main.b9be1e76.js",
     "static/media/file1.mp4": "/willportfolio/static/media/file1.009c2ff8eb2664d9c804.mp4",
     "static/media/mainVideo.mp4": "/willportfolio/static/media/mainVideo.4e26cf25bb5d1077ff98.mp4",
     "static/media/file4.mp4": "/willportfolio/static/media/file4.d9755d416cf46fcb86ff.mp4",
@@ -26,6 +26,7 @@
     "static/media/oldart17.png": "/willportfolio/static/media/oldart17.3c7267eb779a81d56979.png",
     "static/media/oldart23.png": "/willportfolio/static/media/oldart23.7dd113005bb88743bbb5.png",
     "static/media/oldart6.png": "/willportfolio/static/media/oldart6.6014f56f4a9e7f7543b2.png",
+    "static/media/blog1-1-1740001467686.webp": "/willportfolio/static/media/blog1-1-1740001467686.82a6e1498e3abd099104.webp",
     "static/media/oldart19.png": "/willportfolio/static/media/oldart19.12613e1980eb55ff7dc8.png",
     "static/media/oldart1.png": "/willportfolio/static/media/oldart1.9c5d19c6cfb1ecad737f.png",
     "static/media/oldart11.png": "/willportfolio/static/media/oldart11.d878ca59ad7cf09962ad.png",
@@ -36,16 +37,19 @@
     "static/media/oldart20.png": "/willportfolio/static/media/oldart20.153062227d3cf9db6505.png",
     "static/media/oldart16.png": "/willportfolio/static/media/oldart16.f839d8f5438bb49b7d29.png",
     "static/media/oldart8.jpg": "/willportfolio/static/media/oldart8.be99f2f48196a7272932.jpg",
+    "static/media/blog2-1-1740001571463.webp": "/willportfolio/static/media/blog2-1-1740001571463.ff98e5f4a625be80fe63.webp",
     "static/media/Will_Jensen_Resume.pdf": "/willportfolio/static/media/Will_Jensen_Resume.52f56ba8c40c03107ae3.pdf",
+    "static/media/blog2-2-1740001571463.webp": "/willportfolio/static/media/blog2-2-1740001571463.6540c0087dd34699e2cd.webp",
+    "static/media/blog1-2-1740001467686.webp": "/willportfolio/static/media/blog1-2-1740001467686.96e3b1b22563f9fcda41.webp",
     "static/media/img2.jpg": "/willportfolio/static/media/img2.70cb541ac978e8bbcff5.jpg",
     "static/media/img1.jpg": "/willportfolio/static/media/img1.bb9ad5d495f53112f8c4.jpg",
     "static/media/oldart10.jpg": "/willportfolio/static/media/oldart10.8863389839aaf13e225e.jpg",
     "index.html": "/willportfolio/index.html",
-    "main.0efa582b.css.map": "/willportfolio/static/css/main.0efa582b.css.map",
-    "main.520b2a4f.js.map": "/willportfolio/static/js/main.520b2a4f.js.map"
+    "main.d71a54e0.css.map": "/willportfolio/static/css/main.d71a54e0.css.map",
+    "main.b9be1e76.js.map": "/willportfolio/static/js/main.b9be1e76.js.map"
   },
   "entrypoints": [
-    "static/css/main.0efa582b.css",
-    "static/js/main.520b2a4f.js"
+    "static/css/main.d71a54e0.css",
+    "static/js/main.b9be1e76.js"
   ]
 }
