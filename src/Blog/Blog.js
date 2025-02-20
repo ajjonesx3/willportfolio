@@ -23,7 +23,6 @@ const Blog = () => {
             <div className="posts">
                 {jsonArray.map(blogObj=><Post data={blogObj} /> )}
             </div>
-
         </div>
     )
 }
