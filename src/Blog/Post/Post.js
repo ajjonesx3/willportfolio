@@ -17,17 +17,26 @@ const Post = ({data}) => {
 
     const parseContent = text => {
 
-        let textArray = text.split(' ');
-        let html = textArray.map((word,index)=>{
-            if(word.slice(0,8)==="https://"){
-                console.log('hurrah');
-                return <a target="__blank" href={word}>{word} </a>
-            } else {
-                return <>{word} </>
-            }
-        })
+        if(!text){
+            return "";
+        }
 
-        return html;
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+
+        return text.split("\n").map((line, index) => (
+            <p key={index}>
+              {line.split(urlRegex).map((part, i) =>
+                urlRegex.test(part) ? (
+                  <a key={i} href={part} target="_blank" rel="noopener noreferrer">
+                    {part}
+                  </a>
+                ) : (
+                  part
+                )
+              )}
+            </p>
+          ));
     }
 
     return (
@@ -42,7 +51,7 @@ const Post = ({data}) => {
                 {parseContent(data.textContent)}
             </div>
             <div className="mediaContent">
-                {data.media ? <Gallery media={data.media} /> : undefined}
+                {data.media.length > 0 ? <Gallery media={data.media} /> : undefined}
             </div>
 
         </div>

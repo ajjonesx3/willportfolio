@@ -1,11 +1,14 @@
 import "./Blog.css";
 import Post from'./Post/Post';
+import {useEffect} from 'react';
 
 const requireContext = require.context('../WillData/Blogs',false,/\.json$/);
 
 const jsonArray = requireContext.keys().map(file=> requireContext(file));
+jsonArray.sort((a,b)=>b.uploadTime-a.uploadTime);
 
 const Blog = () => {
+
     return (
         <div className="blog">
             <div className="blogNav">

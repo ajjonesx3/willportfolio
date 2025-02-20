@@ -51,7 +51,7 @@
     justify-content:center;
 }
 
-.gallery .otherMedia img {
+.gallery .otherMedia img, .gallery .otherMedia video {
     width:100px;
     height:auto;
     margin:10px;
