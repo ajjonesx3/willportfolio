@@ -22,7 +22,7 @@
     border:1px solid black;
 }
 
-.otherImages {
+.animation .otherImages {
     display:flex;
     height:90%;
     border-top:1px solid rgba(231, 178, 178, 0.267);

@@ -2,7 +2,9 @@
     height:100%;
     width:60%;
     margin:auto auto;
-    display:block;
+    display:grid;
+    grid-template-rows:1fr 9fr;
+    grid-template-columns:1fr;
 }
 
 .blogNav {
@@ -30,6 +32,7 @@
 
 .posts {
     width:90%;
+    height:100%;
     margin:auto;
     overflow-y:scroll;
     -ms-overflow-style: none;  /* IE and Edge */

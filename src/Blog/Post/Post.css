@@ -19,9 +19,45 @@
     font-weight:bold;
     font-size:2em;
     border-bottom:1px solid grey;
-}
+}   
 
 .post .content {
     color:white;
     padding:1em 0;
+}
+
+.gallery {
+    display:grid;
+    grid-template-rows: 5fr 1fr;
+}
+
+.gallery .selectedMediaWrapper {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.gallery .selectedMedia {
+    width:60%;
+    height:auto;
+    border:1px solid black;
+}
+
+.gallery .otherMedia {
+    display:flex;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+}
+
+.gallery .otherMedia img {
+    width:100px;
+    height:auto;
+    margin:10px;
+    border:1px solid black;
+}
+
+.gallery .otherMedia img:hover {
+    cursor:pointer;
 }
