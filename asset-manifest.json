@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/willportfolio/static/css/main.5818da4c.css",
-    "main.js": "/willportfolio/static/js/main.2b89d3e0.js",
+    "main.css": "/willportfolio/static/css/main.fc78c4b2.css",
+    "main.js": "/willportfolio/static/js/main.f610df99.js",
     "static/media/file1.mp4": "/willportfolio/static/media/file1.009c2ff8eb2664d9c804.mp4",
     "static/media/mainVideo.mp4": "/willportfolio/static/media/mainVideo.4e26cf25bb5d1077ff98.mp4",
+    "static/media/f99-1740085409974.mp4": "/willportfolio/static/media/f99-1740085409974.4bac2ecea8bca4cfb07e.mp4",
+    "static/media/file30-1740085324245.mp4": "/willportfolio/static/media/file30-1740085324245.3bd4a8273af62a4ec866.mp4",
+    "static/media/f22222-1740085379222.mp4": "/willportfolio/static/media/f22222-1740085379222.0788a8692ada9a9e3b82.mp4",
+    "static/media/movie111-1740085189254.mp4": "/willportfolio/static/media/movie111-1740085189254.98a80d1a5b70185ccce2.mp4",
     "static/media/file4.mp4": "/willportfolio/static/media/file4.d9755d416cf46fcb86ff.mp4",
     "static/media/file8.mp4": "/willportfolio/static/media/file8.d7ce50e369e8a37bf582.mp4",
     "static/media/oldart21.png": "/willportfolio/static/media/oldart21.2ce4b6df569ffc255840.png",
@@ -14,6 +18,7 @@
     "static/media/oldart15.png": "/willportfolio/static/media/oldart15.1dec4850816a9b54cce4.png",
     "static/media/oldart24.png": "/willportfolio/static/media/oldart24.5964945c4f1e6e139b1d.png",
     "static/media/oldart26.png": "/willportfolio/static/media/oldart26.4e4030c0cf866c2b269f.png",
+    "static/media/file29-1740085324245.mp4": "/willportfolio/static/media/file29-1740085324245.963523c4de77808c2cbf.mp4",
     "static/media/file6.mp4": "/willportfolio/static/media/file6.fb29943037654980a796.mp4",
     "static/media/oldart12.png": "/willportfolio/static/media/oldart12.614ebe5646a05823a74e.png",
     "static/media/oldart13.png": "/willportfolio/static/media/oldart13.7fcfb990fd9aa641407a.png",
@@ -27,6 +32,7 @@
     "static/media/oldart23.png": "/willportfolio/static/media/oldart23.7dd113005bb88743bbb5.png",
     "static/media/oldart6.png": "/willportfolio/static/media/oldart6.6014f56f4a9e7f7543b2.png",
     "static/media/blog1-1-1740083863797.webp": "/willportfolio/static/media/blog1-1-1740083863797.82a6e1498e3abd099104.webp",
+    "static/media/blog1-1-1740085008593.webp": "/willportfolio/static/media/blog1-1-1740085008593.82a6e1498e3abd099104.webp",
     "static/media/oldart19.png": "/willportfolio/static/media/oldart19.12613e1980eb55ff7dc8.png",
     "static/media/oldart1.png": "/willportfolio/static/media/oldart1.9c5d19c6cfb1ecad737f.png",
     "static/media/oldart11.png": "/willportfolio/static/media/oldart11.d878ca59ad7cf09962ad.png",
@@ -38,18 +44,21 @@
     "static/media/oldart16.png": "/willportfolio/static/media/oldart16.f839d8f5438bb49b7d29.png",
     "static/media/oldart8.jpg": "/willportfolio/static/media/oldart8.be99f2f48196a7272932.jpg",
     "static/media/blog2-1-1740083880962.webp": "/willportfolio/static/media/blog2-1-1740083880962.ff98e5f4a625be80fe63.webp",
+    "static/media/blog2-1-1740085048619.webp": "/willportfolio/static/media/blog2-1-1740085048619.ff98e5f4a625be80fe63.webp",
     "static/media/Will_Jensen_Resume.pdf": "/willportfolio/static/media/Will_Jensen_Resume.52f56ba8c40c03107ae3.pdf",
     "static/media/blog2-2-1740083880962.webp": "/willportfolio/static/media/blog2-2-1740083880962.6540c0087dd34699e2cd.webp",
+    "static/media/blog2-2-1740085048619.webp": "/willportfolio/static/media/blog2-2-1740085048619.6540c0087dd34699e2cd.webp",
     "static/media/blog1-2-1740083863797.webp": "/willportfolio/static/media/blog1-2-1740083863797.96e3b1b22563f9fcda41.webp",
+    "static/media/blog1-2-1740085008593.webp": "/willportfolio/static/media/blog1-2-1740085008593.96e3b1b22563f9fcda41.webp",
     "static/media/img2.jpg": "/willportfolio/static/media/img2.70cb541ac978e8bbcff5.jpg",
     "static/media/img1.jpg": "/willportfolio/static/media/img1.bb9ad5d495f53112f8c4.jpg",
     "static/media/oldart10.jpg": "/willportfolio/static/media/oldart10.8863389839aaf13e225e.jpg",
     "index.html": "/willportfolio/index.html",
-    "main.5818da4c.css.map": "/willportfolio/static/css/main.5818da4c.css.map",
-    "main.2b89d3e0.js.map": "/willportfolio/static/js/main.2b89d3e0.js.map"
+    "main.fc78c4b2.css.map": "/willportfolio/static/css/main.fc78c4b2.css.map",
+    "main.f610df99.js.map": "/willportfolio/static/js/main.f610df99.js.map"
   },
   "entrypoints": [
-    "static/css/main.5818da4c.css",
-    "static/js/main.2b89d3e0.js"
+    "static/css/main.fc78c4b2.css",
+    "static/js/main.f610df99.js"
   ]
 }
