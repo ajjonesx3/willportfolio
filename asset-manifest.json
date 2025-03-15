@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/willportfolio/static/css/main.fc78c4b2.css",
-    "main.js": "/willportfolio/static/js/main.f610df99.js",
+    "main.js": "/willportfolio/static/js/main.0f30493e.js",
     "static/media/file1.mp4": "/willportfolio/static/media/file1.009c2ff8eb2664d9c804.mp4",
     "static/media/mainVideo.mp4": "/willportfolio/static/media/mainVideo.4e26cf25bb5d1077ff98.mp4",
     "static/media/f99-1740085409974.mp4": "/willportfolio/static/media/f99-1740085409974.4bac2ecea8bca4cfb07e.mp4",
@@ -54,11 +54,12 @@
     "static/media/img1.jpg": "/willportfolio/static/media/img1.bb9ad5d495f53112f8c4.jpg",
     "static/media/oldart10.jpg": "/willportfolio/static/media/oldart10.8863389839aaf13e225e.jpg",
     "index.html": "/willportfolio/index.html",
+    "static/media/cars-undefined": "/willportfolio/static/media/cars-undefined.676640713570760d7217",
     "main.fc78c4b2.css.map": "/willportfolio/static/css/main.fc78c4b2.css.map",
-    "main.f610df99.js.map": "/willportfolio/static/js/main.f610df99.js.map"
+    "main.0f30493e.js.map": "/willportfolio/static/js/main.0f30493e.js.map"
   },
   "entrypoints": [
     "static/css/main.fc78c4b2.css",
-    "static/js/main.f610df99.js"
+    "static/js/main.0f30493e.js"
   ]
 }
